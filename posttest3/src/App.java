@@ -63,8 +63,10 @@ public class App extends menu {
         int input;
         do {
                 System.out.println("==========================");
-                System.out.println("||  1. Lihat Data       ||");
-                System.out.println("||  2. Lihat Detail     ||");
+                System.out.println("||  1. Lihat Pemain     ||");
+                System.out.println("||  2. Lihat Statistik  ||");
+                System.out.println("||  3. Lihat Kontrak    ||");
+                System.out.println("||  4. Kembali          ||");
                 System.out.println("==========================");
                 System.out.print("Pilihan : ");
             input = Integer.parseInt(br.readLine());
